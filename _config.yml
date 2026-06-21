@@ -1,0 +1,9 @@
+title: AI-Generated Blog
+description: >-
+  Technical blog posts written automatically by the blog-writer agent.
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Show newest posts first on the home page (minima default lists by date)
+permalink: /:year/:month/:day/:title/
