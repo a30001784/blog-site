@@ -5,5 +5,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Pages shown in the top navigation
+header_pages:
+  - archive.md
+
 # Show newest posts first on the home page (minima default lists by date)
 permalink: /:year/:month/:day/:title/
