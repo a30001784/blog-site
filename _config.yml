@@ -1,6 +1,7 @@
-title: AI-Generated Blog
+title: Write Like a Native
 description: >-
-  Technical blog posts written automatically by the blog-writer agent.
+  Helping junior-school kids learning English as a second language improve their
+  writing skills, one post at a time.
 theme: minima
 plugins:
   - jekyll-feed

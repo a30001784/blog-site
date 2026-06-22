@@ -1,13 +1,14 @@
-# blog-site
+# Write Like a Native
 
-The published blog application — a [Jekyll](https://jekyllrb.com/) site served via
-**GitHub Pages**. Posts here are generated automatically by the
-[blog-writer agent](https://github.com/a30001784/blog-writer-agent).
+A blog helping junior-school kids learning English as a second language improve
+their writing skills. Built as a [Jekyll](https://jekyllrb.com/) site and served
+via **GitHub Pages**.
 
-## How posts get here
-The agent's `publish.py` converts each finished blog post into a Jekyll entry in
-[`_posts/`](_posts/) (filename `YYYY-MM-DD-slug.md` with front matter), then
-commits and pushes to this repo. GitHub Pages rebuilds and the post goes live.
+## Adding a post
+Add a markdown file to [`_posts/`](_posts/) named `YYYY-MM-DD-slug.md` with Jekyll
+front matter (`layout: post`, `title`, `date`), then commit and push. GitHub Pages
+rebuilds and the post goes live. New posts automatically appear in the calendar
+and archive columns.
 
 ## Local preview (optional)
 ```bash
@@ -18,5 +19,6 @@ Deployment itself needs no local build — GitHub Pages builds on push.
 
 ## Structure
 - `_config.yml` — site config (theme: minima, jekyll-feed)
-- `index.md` — home page, lists posts newest-first
+- `index.md` — home page: posts list + calendar/archive sidebar
+- `archive.md` — full archive grouped by year/month
 - `_posts/` — one markdown file per published post
