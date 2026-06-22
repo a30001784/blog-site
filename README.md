@@ -7,8 +7,8 @@ via **GitHub Pages**.
 ## Adding a post
 Add a markdown file to [`_posts/`](_posts/) named `YYYY-MM-DD-slug.md` with Jekyll
 front matter (`layout: post`, `title`, `date`), then commit and push. GitHub Pages
-rebuilds and the post goes live. New posts automatically appear in the calendar
-and archive columns.
+rebuilds and the post goes live. New posts show up in the calendar and archive
+columns on their own.
 
 ## Local preview (optional)
 ```bash
